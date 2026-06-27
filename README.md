@@ -42,3 +42,17 @@ This repository contains a comprehensive data analytics and visualization projec
 - **Localized Presentation**: Maintained localized translations across evaluation modules (*सौंदर्य*, *வணிகம்*, *Dating (Deutsch)*).
 - **Growth Shading Layer**: Integrated a highlight filter overlay boundary detecting periods where month-over-month growth patterns scale strictly beyond a **20% threshold ratio**.
 - **Operational Window Rule**: Configured tracking matrix variables executing visibility parameters exclusively between **6:00 PM and 9:00 PM IST**.
+
+
+## Task 4: Cumulative Installs Map - Stacked Area Chart
+- **Visualization**: Implemented a layered stacked area plot illustrating cumulative multi-category installation volumes over time.
+- **Data Filtering Matrix**: 
+  - Restructured to evaluate entities holding an average rating baseline of **at least 4.2**.
+  - Enforced string metrics filtering out any applications containing numeric values.
+  - Restricted scope to structural groups with categories starting with **"T" or "P"**.
+  - Isolated heavy operational scales by verifying reviews strictly **greater than 1,000**.
+  - Standardized physical metrics limiting processing sizes between **20 MB and 80 MB**.
+- **Localization Integration**: Managed localization transformations for target categorical values (*French*, *Spanish*, *Japanese*).
+- **Intensity Layer Rules**: Integrated a dynamic shade overlay execution module mapping alpha intensity shifts during structural growth scaling **over 25% month-over-month**.
+- **Time Window Constraint**: Restricted system deployment to live tracking windows exclusively operating between **4:00 PM and 6:00 PM IST**.
+
