@@ -56,3 +56,11 @@ This repository contains a comprehensive data analytics and visualization projec
 - **Intensity Layer Rules**: Integrated a dynamic shade overlay execution module mapping alpha intensity shifts during structural growth scaling **over 25% month-over-month**.
 - **Time Window Constraint**: Restricted system deployment to live tracking windows exclusively operating between **4:00 PM and 6:00 PM IST**.
 
+
+## Task 5: Top 10 Categories Metric Comparison - Grouped Bar Chart
+- **Visualization**: Deployed an interactive grouped bar chart plotting aggregated average ratings and total review counts side-by-side using log-scale transformations.
+- **Strict Data Filters**: 
+  - Excluded application profiles holding an average rating baseline lower than **4.0**.
+  - Isolated heavy-tier deployments by enforcing physical package constraints of **at least 10 MB**.
+- **Temporal Alignment**: Structured timeline queries filtering exclusively for applications whose latest deployment log fell under the month of **January**.
+- **Time Window Rules**: Integrated operational validation matrices restricting layout visibility strictly between **3:00 PM and 5:00 PM IST**.
