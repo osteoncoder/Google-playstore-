@@ -64,3 +64,14 @@ This repository contains a comprehensive data analytics and visualization projec
   - Isolated heavy-tier deployments by enforcing physical package constraints of **at least 10 MB**.
 - **Temporal Alignment**: Structured timeline queries filtering exclusively for applications whose latest deployment log fell under the month of **January**.
 - **Time Window Rules**: Integrated operational validation matrices restricting layout visibility strictly between **3:00 PM and 5:00 PM IST**.
+
+
+### Task 6: Free vs. Paid Analytics (Dual-Axis Matrix Plot)
+* **Goal**: Compares the metrics profile of Free vs. Paid models across the Top 3 market domains using a dual-axis presentation format.
+* **Primary Y-Axis**: Average Installs represented as clustered bars.
+* **Secondary Y-Axis**: Average Revenue displayed as marked scatter lines.
+* **Filtering Conditions Enforced**:
+  * Excludes applications with fewer than 10,000 installations and revenue $\ge \$10,000$.
+  * Required Android version $> 4.0$ and individual file size $> 15\text{MB}$.
+  * Content rating strictly restricted to `'Everyone'`, and app name constraints $\le 30$ characters.
+* **Time-Window Restriction**: Configured to display during active audit sessions between **13:00 - 14:00 IST** with a built-in fallback validation view mode.
