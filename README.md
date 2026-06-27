@@ -23,3 +23,11 @@ This repository contains a comprehensive data analytics and visualization projec
 
 ## Live Operational Window Rule
 - To enforce real-time dashboard constraints, the dynamic bubble chart logic is architected to execute and display strictly between **5:00 PM and 7:00 PM Indian Standard Time (IST)**. Outside this time range, it safely falls back to a restricted system-alert notice.
+
+
+## Task 2: Global Installs - Choropleth Map
+- **Visualization**: Created an interactive world map using `px.choropleth` to showcase global app distributions.
+- **Exclusion Rule**: Filtered out all categories starting with the characters **"A", "C", "G", or "S"**.
+- **Top Categories**: Shortlisted the Top 5 app categories based on cumulative volume of installations.
+- **Dynamic Threshold Highlight**: Integrated a logic condition to highlight categories where the total number of installs strictly exceeds 1 Million.
+- **Operational Window**: Configured system controls so the map executes and displays strictly between **6:00 PM and 8:00 PM IST**.
