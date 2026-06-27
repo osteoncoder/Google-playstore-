@@ -31,3 +31,14 @@ This repository contains a comprehensive data analytics and visualization projec
 - **Top Categories**: Shortlisted the Top 5 app categories based on cumulative volume of installations.
 - **Dynamic Threshold Highlight**: Integrated a logic condition to highlight categories where the total number of installs strictly exceeds 1 Million.
 - **Operational Window**: Configured system controls so the map executes and displays strictly between **6:00 PM and 8:00 PM IST**.
+
+
+## Task 3: Total Installs Trend - Time Series Line Chart
+- **Visualization**: Rendered an interactive timeline plot showcasing total installation trajectories segmented by operational domains.
+- **Strict Title Compliance**: Displays metrics dynamically with operational time window validation tags.
+- **String & Categorical Constraints**: 
+  - Automatically filtered out any applications starting with target characters **"x", "y", or "z"**.
+  - Enforced structured grouping so categories strictly start with **"E", "C", or "B"**.
+- **Localized Presentation**: Maintained localized translations across evaluation modules (*सौंदर्य*, *வணிகம்*, *Dating (Deutsch)*).
+- **Growth Shading Layer**: Integrated a highlight filter overlay boundary detecting periods where month-over-month growth patterns scale strictly beyond a **20% threshold ratio**.
+- **Operational Window Rule**: Configured tracking matrix variables executing visibility parameters exclusively between **6:00 PM and 9:00 PM IST**.
